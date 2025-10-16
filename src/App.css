@@ -1,0 +1,24 @@
+/* root */
+:root {
+    /* colors */
+    --primary-color: #023092;
+    --secondary-color: #89a1ff;
+    --background-color: #f5f5f5;
+    --text-color: #212121;
+    --text-color-secondary: #c8c8c8;
+    --text-color-light: #ffffff;
+    --header-background-color: #aeb7cb;
+    --footer-background-color: #023092bd;
+
+    /* fonts */
+    --primary-font-family: 'Arial, sans-serif';
+    --secondary-font-family: 'Courier New, monospace';
+    --base-font-size: 16px;
+    --header-font-size: 2em;
+    --subheader-font-size: 1.5em;
+
+    /* paddings */
+    --base-padding: 10px;
+    --base-padding-lg: 15px;
+    --section-padding: 20px;
+}

@@ -1,0 +1,49 @@
+.footer{
+    padding: var(--base-padding);
+    font-size: var(--base-font-size);
+    background: var(--footer-background-color);
+    bottom: 0;
+    width: 100%;
+    position: fixed;
+
+    & .footer-container{
+        display: flex;
+        justify-content: space-between;
+        color: var(--text-color-light);
+
+        & .footer-section, .footer-bottom{
+            flex: 1;
+            text-align: start;
+        }
+    }
+
+    & hr{
+        border-color: var(--text-color-light);
+    }
+}
+
+.tech-stack, .features-list{
+    display: flex;
+    justify-content: start;
+    gap: var(--base-padding-lg);
+    margin-top: 10px;
+    cursor: pointer;
+
+    & :hover{
+        text-shadow: 0 2px 5px rgba(0, 0, 0, 0.663);
+    }
+}
+
+.footer-text, .tech-item{
+    color: var(--text-color-secondary);
+}
+
+.copyright{
+    color: var(--text-color-light);
+    cursor: default;
+}
+
+.author-name{
+    color: var(--text-color-secondary);
+    text-decoration: none;
+}

@@ -1,0 +1,30 @@
+.category-selector {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+}
+
+.category-grid {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+
+.category-button {
+    width: auto;
+    height: 40px;
+    border: none;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
+    background: none;
+    transition: all 0.3s ease-in-out;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 10px 40px;
+}
+.category-button:hover {
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
+}

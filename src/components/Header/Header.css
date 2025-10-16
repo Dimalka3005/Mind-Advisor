@@ -1,0 +1,36 @@
+.app-header{
+    background: var(--header-background-color);
+    padding: var(--base-padding);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.496);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header-title{
+    font-family: var(--primary-font-family);
+    color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+
+    & span{
+        font-size: var(--header-font-size);
+        margin-right: 20px;
+    }
+}
+
+.header-subtitle{
+    font-family: var(--secondary-font-family);
+    color: var(--secondary-color);
+    font-size: var(--subheader-font-size);
+    text-align: center;
+    text-shadow: 0 0 0.5px rgb(0, 0, 0);
+}
+
+/* .header-subtitle{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
